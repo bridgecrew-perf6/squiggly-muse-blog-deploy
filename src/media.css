@@ -1,0 +1,176 @@
+:root {
+    --border: 2px solid #fff;
+}
+
+
+@media only screen and (min-width: 1200px){
+    .App {
+      display: grid;
+      grid-template-columns: 4fr .2fr 4fr;
+      grid-template-rows: 1fr 1.5fr;
+      gap: 1.5rem;
+      grid-template-areas: 
+      "logo nav page"
+      "quotes nav page"
+      ;
+      margin: 0 auto;
+      height: 100vh;
+      overflow: hidden;
+      padding: 0;
+      margin-left: 1rem;
+      max-width:none;
+    }
+
+    .logo-container{
+       grid-area: logo;
+    }
+    
+    .logo-container img {
+        
+        max-width: 70%;
+        display: block;
+        margin: auto auto 0;
+        height: 100%;
+    }
+    .navigation {
+      grid-area: nav;
+      height: 100vh;
+      background-color: #fff;
+        width: 50px;
+    }
+  
+    .quotes {
+      grid-area: quotes;
+      overflow: hidden;
+    }
+  
+    .page {
+      grid-area: page;
+      margin-top: 0;
+      height: 100vh;
+      overflow: scroll;
+      width: 600px;
+    }
+    
+    nav{
+        opacity: 1;
+        position: relative;
+        transform: inherit;
+        height: 100%;
+    }
+
+    nav ul {
+        height: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        padding: 0;
+    }
+    nav ul li {
+        transform: rotate(-90deg);
+    }
+    
+    nav a::after{
+        display: none;
+    }
+
+    .hamburger {
+        display: none;
+    }
+  
+    .image-container-2, .text-container-2 {
+        display: block;
+      }
+    .quotes {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 200px 70px 200px;
+        grid-template-areas: 
+        "photo1 quote1"
+        "quote2 quote1"
+        "quote2 photo2"
+        ;
+        width: 100%;
+ 
+    }
+    .text-container {
+        padding-top: 0;
+        font-size: 1.5rem;
+        padding-bottom: 0;
+    }
+
+    .text-container img {
+        align-self:flex-end;
+    }
+
+    .text-container, .image-container {
+        position: relative;
+    }
+    .text-container blockquote, .image-container img {
+        position: absolute;
+    }
+
+    
+
+    .text-container-2{
+        grid-area: quote2;
+        border-right: var(--border);
+
+    }
+    .text-container-1{
+        grid-area: quote1;
+        /* border-top: var(--border); */
+        border-bottom: var(--border);
+        border-left: var(--border);
+    }
+
+    .image-container-1{
+        grid-area: photo1;
+        /* border-top: var(--border); */
+        border-bottom: var(--border);
+    }
+
+    .image-container-2{
+        grid-area: photo2
+
+    }
+
+    .image-container-1 img {
+        bottom: 1.5rem;
+        right: 1.5rem;
+    }
+
+    .image-container-2 img {
+        top: 1.5rem;
+        left: 1.5rem;
+    }
+
+    .image-container img {
+        width: 80%;
+    }
+
+    img.hide {
+        display: none;
+    }
+
+    .text-container-1 img {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 100;
+    }
+
+    .text-container-2 img {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    blockquote {
+        padding-top: 0;
+    }
+
+    .text-container-1 blockquote {
+        bottom: 2rem;
+    }
+  }
