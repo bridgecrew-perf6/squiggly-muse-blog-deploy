@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/squiggly-muse-blog-deploy/static/css/main.053a83be.css",
+    "main.js": "/squiggly-muse-blog-deploy/static/js/main.649d52d7.js",
+    "static/js/787.1797f0e0.chunk.js": "/squiggly-muse-blog-deploy/static/js/787.1797f0e0.chunk.js",
+    "static/media/logo.svg": "/squiggly-muse-blog-deploy/static/media/logo.44a4d5f3363d7c74a577436b9a559541.svg",
+    "static/media/bg.svg": "/squiggly-muse-blog-deploy/static/media/bg.40fed8f4c187de5aeda1.svg",
+    "index.html": "/squiggly-muse-blog-deploy/index.html",
+    "static/media/arrow.svg": "/squiggly-muse-blog-deploy/static/media/arrow.2245cce0ca16a88f72666903f385cf20.svg",
+    "main.053a83be.css.map": "/squiggly-muse-blog-deploy/static/css/main.053a83be.css.map",
+    "main.649d52d7.js.map": "/squiggly-muse-blog-deploy/static/js/main.649d52d7.js.map",
+    "787.1797f0e0.chunk.js.map": "/squiggly-muse-blog-deploy/static/js/787.1797f0e0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.053a83be.css",
+    "static/js/main.649d52d7.js"
+  ]
+}
