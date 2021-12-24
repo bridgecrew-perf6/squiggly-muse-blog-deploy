@@ -26,8 +26,8 @@ function App() {
           key={location.key}
           >
         <Switch>
-            <Route path="/:pageId"><Page/></Route>
-            <Route path="/squiggly-muse-blog"><h2 className="pick">Pick a category!</h2></Route>
+            <Route path="/squiggly-muse-blog-deploy/:pageId"><Page/></Route>
+            <Route path="/squiggly-muse-blog-deploy"><h2 className="pick">Pick a category!</h2></Route>
         </Switch>
         </CSSTransition>
       </TransitionGroup>

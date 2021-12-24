@@ -24,11 +24,11 @@ function Navigation(){
             <nav className={toggle ? "opennav" : undefined }>
                 <ul>
                     <li>
-                        <NavLink activeClassName="active" to="/1">About</NavLink>
+                        <NavLink activeClassName="active" to="/squiggly-muse-blog-deploy/1">About</NavLink>
                     </li>
-                        <li><NavLink activeClassName="active" to="/2">Satire</NavLink></li>
-                        <li><NavLink activeClassName="active" to="/3">Poetry</NavLink></li>
-                        <li><NavLink activeClassName="active" to="/4">Rants</NavLink></li>
+                        <li><NavLink activeClassName="active" to="/squiggly-muse-blog-deploy/2">Satire</NavLink></li>
+                        <li><NavLink activeClassName="active" to="/squiggly-muse-blog-deploy/3">Poetry</NavLink></li>
+                        <li><NavLink activeClassName="active" to="/squiggly-muse-blog-deploy/4">Rants</NavLink></li>
                 </ul>
             </nav>
         </div>
